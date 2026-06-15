@@ -2,8 +2,8 @@ const categories = [
 {
     name: "Nodarbes",
     questions: {
-        100: ["Question", "Answer"],
-        200: ["Question", "Answer"],
+        100: ["Kuru skolu es nekad neapmeklēju: Mākslas, Mūzikas, Sporta?", "Sporta"],
+        200: ["Cik veidu dejas es dejoju bērnībā? Plus punkti par katru ko nosauksiet.", "3"],
         300: ["Question", "Answer"],
         400: ["Question", "Answer"],
         500: ["Question", "Answer"]
@@ -42,7 +42,7 @@ const categories = [
 {
     name: "General Knowledge",
     questions: {
-        100: ["Kuru skolu es nekad neapmeklēju: Mākslas, Mūzikas, Sporta?", "Sporta"],
+        100: ["", ""],
         200: ["Question", "Answer"],
         300: ["Kāds ir mans Duolingo streak? ±100", "1140"],
         400: ["Question", "Answer"],
