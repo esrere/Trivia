@@ -36,6 +36,28 @@ h1 {
     font-size: 1.2rem;
 }
 
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+
+.team button {
+    background: #7fc97f; /* pastel green */
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.team button:hover {
+    background: #6abf6a;
+}
+
 /* BOARD */
 .board {
     display: grid;
