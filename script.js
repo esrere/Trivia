@@ -99,16 +99,25 @@ values.forEach(value => {
             currentValue = value;
             currentCell = cell;
 
-            document.getElementById("question").textContent =
-                category.questions[value][0];
+            const q = category.questions[value];
 
-            document.getElementById("answer").textContent =
-                "Answer: " + category.questions[value][1];
+            document.getElementById("question").textContent = q[0];
+            document.getElementById("answer").textContent = "Answer: " + q[1];
 
             document.getElementById("answer").style.display = "none";
 
-            document.getElementById("modal").style.display = "flex";
-        };
+            // IMAGE SUPPORT
+            const img = document.getElementById("questionImage");
+
+            if (q[2]) {
+                img.src = q[2];
+                img.style.display = "block";
+            } else {
+                img.style.display = "none";
+            }        
+            
+    document.getElementById("modal").style.display = "flex";
+};
 
         board.appendChild(cell);
     });
