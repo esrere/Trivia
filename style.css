@@ -11,7 +11,7 @@ body {
 
 /* TITLE */
 h1 {
-    color: #7fc97f; /* pastel green */
+    color: #8FC48F; /* pastel green */
     font-weight: 700;
     font-size: 3rem;
     margin-bottom: 20px;
@@ -28,7 +28,7 @@ h1 {
 
 #scores div {
     background: #ffffff;
-    color: #7fc97f; /* green text */
+    color: #8FC48F; /* green text */
     border: 2px solid #cfe8cf;
     padding: 10px 18px;
     border-radius: 999px;
@@ -47,8 +47,8 @@ h1 {
 
 /* CATEGORY HEADERS */
 .category {
-    background: #dff3df; /* soft green */
-    color: #7fc97f;
+    background: #C1E0C2; /* soft green */
+    color: #8FC48F;
     border-radius: 15px;
     font-size: 1.3rem;
     font-weight: 700;
