@@ -50,7 +50,7 @@ const categories = [
         200: ["Kāda ir mana mīļākā kārumiņa garša?", "Šokolādes"],
         300: ["Kāds ir mans Duolingo streak? ±100", "1140"],
         400: ["Spotle: https://spotle.io/?artist=RGVmdG9uZXM=&note=VGFrZSBhIHJpc2s= (pirmajos 3 +200)", "Deftones"],
-        500: ["Question", "Answer"]
+        500: ["Kuru ķermeņa daļu kaulus es esmu salauzusi?", "Nevienu"]
     }
 }
 ];
