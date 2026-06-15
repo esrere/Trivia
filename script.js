@@ -15,7 +15,7 @@ const categories = [
         100: ["Question", "Answer"],
         200: ["Question", "Answer"],
         300: ["Question", "Answer"],
-        400: ["Question", "Answer"],
+        400: ["Kāds ir man letterboxd top4?", "Handmaiden, City of God, Portrait of a lady on fire, Marty supreme"],
         500: ["Question", "Answer"]
     }
 },
