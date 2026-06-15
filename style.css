@@ -1,75 +1,89 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
 
 body {
     margin: 0;
     padding: 20px;
-    background: #060CE9; /* classic game-show blue */
-    font-family: 'Bebas Neue', sans-serif;
-    color: white;
+    background: #f6efe7; /* pastel beige */
+    font-family: 'Quicksand', sans-serif;
+    color: #5a5a5a;
     text-align: center;
 }
 
-/* SCORE BAR */
+/* TITLE */
+h1 {
+    color: #7fc97f; /* pastel green */
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+/* SCORE CONTAINER */
 #scores {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 12px;
+    flex-wrap: wrap;
     margin-bottom: 25px;
 }
 
 #scores div {
-    background: white;
-    color: #060CE9;
-    padding: 10px 20px;
-    border-radius: 50px;
-    font-size: 1.4rem;
-    font-weight: bold;
+    background: #ffffff;
+    color: #7fc97f; /* green text */
+    border: 2px solid #cfe8cf;
+    padding: 10px 18px;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 1.2rem;
 }
 
 /* BOARD */
 .board {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 6px;
+    gap: 10px;
     max-width: 1200px;
     margin: auto;
 }
 
-/* CATEGORY HEADER */
+/* CATEGORY HEADERS */
 .category {
-    background: #001f8b;
-    color: white;
-    border: 3px solid black;
-    font-size: 1.6rem;
+    background: #dff3df; /* soft green */
+    color: #7fc97f;
+    border-radius: 15px;
+    font-size: 1.3rem;
+    font-weight: 700;
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 90px;
+    justify-content: center;
+    min-height: 90px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
 /* QUESTION CELLS */
 .cell {
-    background: #060CE9;
-    border: 3px solid black;
-    color: #FFD700; /* gold */
-    font-size: 2.8rem;
-    font-weight: bold;
+    background: #ffffff;
+    border-radius: 15px;
+    border: 2px solid #f4b6c2; /* pastel pink border */
+    color: #f4b6c2; /* pink numbers */
+    font-size: 2.4rem;
+    font-weight: 700;
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 110px;
+    justify-content: center;
+    min-height: 110px;
     cursor: pointer;
-    text-shadow: 2px 2px black;
-    transition: transform 0.15s ease;
+    transition: 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
 .cell:hover {
     transform: scale(1.05);
+    background: #fff5f7;
 }
 
 .used {
-    background: #111;
-    color: #111;
+    background: #f2f2f2;
+    color: #f2f2f2;
     cursor: default;
 }
 
@@ -78,45 +92,43 @@ body {
     display: none;
     position: fixed;
     inset: 0;
-    background: rgba(0,0,0,0.85);
+    background: rgba(0,0,0,0.4);
     justify-content: center;
     align-items: center;
 }
 
 .modal-content {
-    background: #060CE9;
-    color: white;
-    padding: 40px;
+    background: #ffffff;
+    color: #5a5a5a;
+    padding: 35px;
     border-radius: 20px;
     width: 80%;
     max-width: 800px;
     text-align: center;
-    border: 4px solid gold;
+    border: 3px solid #f4b6c2;
 }
 
-.modal-content h2 {
-    font-size: 2.2rem;
-}
-
+/* ANSWER TEXT */
 #answer {
-    color: gold;
-    font-size: 1.6rem;
+    color: #7fc97f;
+    font-size: 1.4rem;
+    font-weight: 600;
 }
 
 /* BUTTONS */
 button {
-    background: gold;
-    color: #060CE9;
+    background: #f4b6c2; /* pastel pink */
+    color: white;
     border: none;
-    padding: 12px 18px;
+    padding: 10px 16px;
     margin: 5px;
     font-size: 1rem;
-    font-weight: bold;
-    border-radius: 10px;
+    font-weight: 600;
+    border-radius: 12px;
     cursor: pointer;
     transition: 0.2s;
 }
 
 button:hover {
-    background: white;
+    background: #f7c7d0;
 }
