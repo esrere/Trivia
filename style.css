@@ -46,7 +46,6 @@ h1 {
     background: #7fc97f; /* pastel green */
     color: white;
     border: none;
-    padding: 6px 12px;
     font-weight: 600;
     cursor: pointer;
     transition: 0.2s;
