@@ -12,7 +12,7 @@ const categories = [
 {
     name: "Izklaides",
     questions: {
-        100: ["Question", "Answer"],
+        100: ["Vai es labak skrietu 2km avi brauktu ar riteni 20km?", "Brauktu ar riteni 20km"],
         200: ["Question", "Answer"],
         300: ["Question", "Answer"],
         400: ["Kāds ir man letterboxd top4?", "Handmaiden, City of God, Portrait of a Lady on Fire, Marty Supreme"],
