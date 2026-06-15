@@ -35,7 +35,7 @@ const categories = [
         100: ["Kur es piedzimu? (precīzi)", "Latvija, Rīga, Rīgas dzemdību nams"],
         200: ["Question", "Answer"],
         300: ["Cik procenti es esmu ebrejs? ±5%", "6.25%"],
-        400: ["Question", "Answer"],
+        400: ["Kā mani vecāki izvēlējās manu vārdu?", "Uzrakstīja sarakstus un salīdzināja"],
         500: ["Uz kurieni mani vecāki devās ceļojumā, kamēr mana mamma bija stāvoklī?", "Meksika"]
     }
 },
