@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Trivia Game</h1>
+
+<div id="scores">
+    <div>Team 1: <span id="team1">0</span></div>
+    <div>Team 2: <span id="team2">0</span></div>
+    <div>Team 3: <span id="team3">0</span></div>
+    <div>Team 4: <span id="team4">0</span></div>
+</div>
+
+<div id="board" class="board"></div>
+
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <h2 id="question"></h2>
+
+        <p id="answer" style="display:none;"></p>
+
+        <button onclick="showAnswer()">Show Answer</button>
+
+        <hr>
+
+        <h3>Who got it correct?</h3>
+
+        <button onclick="awardPoints(0)">Team 1</button>
+        <button onclick="awardPoints(1)">Team 2</button>
+        <button onclick="awardPoints(2)">Team 3</button>
+        <button onclick="awardPoints(3)">Team 4</button>
+
+        <br><br>
+
+        <button onclick="noWinner()">Nobody</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
