@@ -12,18 +12,22 @@ const categories = [
 {
     name: "Izklaides",
     questions: {
-        100: ["Vai es labak skrietu 2km avi brauktu ar riteni 20km?", "Brauktu ar riteni 20km"],
-        200: ["Filma kurai es ieliku 5 zvaigznes letterboxd. "HE'S DYING TO BECOME A CHEF."", "Ratatouille"],
+        100: ["Vai es labāk skrietu 2km vai brauktu ar riteni 20km?", "Brauktu ar riteni 20km"],
+
+        200: ["Filma kurai es ieliku 5 zvaigznes letterboxd: HE'S DYING TO BECOME A CHEF.", "Ratatouille"],
+
         300: ["Kāda ir mana mīļākā videospēļu franšīze? (+200 punkti ja nosauksiet mīļāko spēli)", "Resident Evil"],
-        400: ["Kāds ir man letterboxd top4?", "Handmaiden, City of God, Portrait of a Lady on Fire, Marty Supreme"],
+
+        400: ["Kāds ir mans Letterboxd top 4?", "Handmaiden, City of God, Portrait of a Lady on Fire, Marty Supreme"],
+
         500: ["Cik zvaigznes man ir DTI? ±1000", "14836"]
     }
 },
 {
     name: "Foto",
     questions: {
-        100: ["Kas tā par meiteni blakus man? (+ punkti, ja nosauksiet vārdu)", "Vācijas apmaiņas studente, Emma", "Miemma.JPG"],
-        200: ["", "Answer"],
+        100: ["Kas tā par meiteni blakus man? (+ punkti, ja nosauksiet vārdu)", "Emma", "Miemma.JPG"],
+        200: ["", ""],
         300: ["Question", "Answer"],
         400: ["Question", "Answer"],
         500: ["Question", "Answer"]
@@ -45,7 +49,7 @@ const categories = [
         100: ["Kā sauc manu kaķi?", "Oris (Oreons, Oreo)"],
         200: ["Kāda ir mana mīļākā kārumiņa garša?", "Šokolādes"],
         300: ["Kāds ir mans Duolingo streak? ±100", "1140"],
-        400: ["Spotle rounds: https://spotle.io/?artist=RGVmdG9uZXM=&note=VGFrZSBhIHJpc2s= (ja fiksi uzminat (pirmajos 3), +200)", "Deftones"],
+        400: ["Spotle: https://spotle.io/?artist=RGVmdG9uZXM=&note=VGFrZSBhIHJpc2s= (pirmajos 3 +200)", "Deftones"],
         500: ["Question", "Answer"]
     }
 }
@@ -58,7 +62,7 @@ let scores = [0, 0, 0, 0];
 let currentValue = 0;
 let currentCell = null;
 
-/* ================= SCORE UPDATE ================= */
+/* ================= SCORE ================= */
 
 function updateScores() {
     document.getElementById("team1").textContent = scores[0];
@@ -67,14 +71,14 @@ function updateScores() {
     document.getElementById("team4").textContent = scores[3];
 }
 
-/* ================= + / - BUTTONS ================= */
+/* ================= + / - ================= */
 
 function changePoints(team, amount) {
     scores[team] += amount;
     updateScores();
 }
 
-/* ================= BUILD BOARD ================= */
+/* ================= BOARD ================= */
 
 categories.forEach(category => {
 
@@ -106,7 +110,7 @@ values.forEach(value => {
 
             document.getElementById("answer").style.display = "none";
 
-            // IMAGE SUPPORT
+            /* IMAGE SUPPORT */
             const img = document.getElementById("questionImage");
 
             if (q[2]) {
@@ -114,10 +118,10 @@ values.forEach(value => {
                 img.style.display = "block";
             } else {
                 img.style.display = "none";
-            }        
-            
-    document.getElementById("modal").style.display = "flex";
-};
+            }
+
+            document.getElementById("modal").style.display = "flex";
+        };
 
         board.appendChild(cell);
     });
