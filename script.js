@@ -15,8 +15,8 @@ const categories = [
         100: ["Question", "Answer"],
         200: ["Question", "Answer"],
         300: ["Question", "Answer"],
-        400: ["Kāds ir man letterboxd top4?", "Handmaiden, City of God, Portrait of a lady on fire, Marty supreme"],
-        500: ["Cik zvaigznes man ir DTI? ± 1000", "14836"]
+        400: ["Kāds ir man letterboxd top4?", "Handmaiden, City of God, Portrait of a Lady on Fire, Marty Supreme"],
+        500: ["Cik zvaigznes man ir DTI? ±1000", "14836"]
     }
 },
 {
@@ -34,17 +34,17 @@ const categories = [
     questions: {
         100: ["Question", "Answer"],
         200: ["Question", "Answer"],
-        300: ["Cik procenti es esmu ebrejs? ± 5%", "6,25%"],
+        300: ["Cik procenti es esmu ebrejs? ±5%", "6.25%"],
         400: ["Question", "Answer"],
         500: ["Question", "Answer"]
     }
 },
 {
-    name: "General knowledge",
+    name: "General Knowledge",
     questions: {
         100: ["Kuru skolu es nekad neapmeklēju: Mākslas, Mūzikas, Sporta?", "Sporta"],
         200: ["Question", "Answer"],
-        300: ["Kāds ir mans Duolingo streak? ± 100", "1140"],
+        300: ["Kāds ir mans Duolingo streak? ±100", "1140"],
         400: ["Question", "Answer"],
         500: ["Question", "Answer"]
     }
@@ -58,6 +58,8 @@ let scores = [0, 0, 0, 0];
 let currentValue = 0;
 let currentCell = null;
 
+/* ================= SCORE UPDATE ================= */
+
 function updateScores() {
     document.getElementById("team1").textContent = scores[0];
     document.getElementById("team2").textContent = scores[1];
@@ -65,11 +67,22 @@ function updateScores() {
     document.getElementById("team4").textContent = scores[3];
 }
 
+/* ================= + / - BUTTONS ================= */
+
+function changePoints(team, amount) {
+    scores[team] += amount;
+    updateScores();
+}
+
+/* ================= BUILD BOARD ================= */
+
 categories.forEach(category => {
+
     const header = document.createElement("div");
     header.className = "category";
     header.textContent = category.name;
     board.appendChild(header);
+
 });
 
 values.forEach(value => {
@@ -101,6 +114,8 @@ values.forEach(value => {
     });
 });
 
+/* ================= MODAL ================= */
+
 function showAnswer() {
     document.getElementById("answer").style.display = "block";
 }
@@ -109,11 +124,6 @@ function awardPoints(team) {
     scores[team] += currentValue;
     updateScores();
     finishQuestion();
-}
-
-function changePoints(team, amount){
-    scores[team] += amount;
-    updateScores();
 }
 
 function noWinner() {
@@ -128,13 +138,12 @@ function finishQuestion() {
     const remaining = document.querySelectorAll(".cell:not(.used)");
 
     if (remaining.length === 0) {
-
         const highest = Math.max(...scores);
         const winner = scores.indexOf(highest) + 1;
 
         setTimeout(() => {
             alert(
-                "Game Over!\n\nWinner: Team " +
+                "Game Over!\nWinner: Team " +
                 winner +
                 "\nScore: " +
                 highest
