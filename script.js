@@ -42,7 +42,7 @@ const categories = [
 {
     name: "General Knowledge",
     questions: {
-        100: ["", ""],
+        100: ["Kā sauc manu kaķi?", "Oris (Oreons, Oreo)"],
         200: ["Question", "Answer"],
         300: ["Kāds ir mans Duolingo streak? ±100", "1140"],
         400: ["Spotle rounds: https://spotle.io/?artist=RGVmdG9uZXM=&note=VGFrZSBhIHJpc2s=, ja fiksi uzminat (3), +200", "Deftones"],
