@@ -36,7 +36,7 @@ const categories = [
         200: ["Question", "Answer"],
         300: ["Cik procenti es esmu ebrejs? ±5%", "6.25%"],
         400: ["Question", "Answer"],
-        500: ["Question", "Answer"]
+        500: ["Uz kurieni mani vecāki devās ceļojumā, kamēr mana mamma bija stāvoklī?", "Meksika"]
     }
 },
 {
