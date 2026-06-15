@@ -1,6 +1,6 @@
 const categories = [
 {
-    name: "Science",
+    name: "Nodarbes",
     questions: {
         100: ["Question", "Answer"],
         200: ["Question", "Answer"],
@@ -10,7 +10,7 @@ const categories = [
     }
 },
 {
-    name: "History",
+    name: "Letterboxd",
     questions: {
         100: ["Question", "Answer"],
         200: ["Question", "Answer"],
@@ -20,7 +20,7 @@ const categories = [
     }
 },
 {
-    name: "Geography",
+    name: "Foto",
     questions: {
         100: ["Question", "Answer"],
         200: ["Question", "Answer"],
@@ -30,7 +30,7 @@ const categories = [
     }
 },
 {
-    name: "Sports",
+    name: "Izcelsme",
     questions: {
         100: ["Question", "Answer"],
         200: ["Question", "Answer"],
@@ -40,7 +40,7 @@ const categories = [
     }
 },
 {
-    name: "Movies",
+    name: "General knowledge",
     questions: {
         100: ["Question", "Answer"],
         200: ["Question", "Answer"],
