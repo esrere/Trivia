@@ -111,6 +111,11 @@ function awardPoints(team) {
     finishQuestion();
 }
 
+function addPoints(team) {
+    scores[team] += 100;
+    updateScores();
+}
+
 function noWinner() {
     finishQuestion();
 }
