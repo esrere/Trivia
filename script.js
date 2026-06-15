@@ -42,9 +42,9 @@ const categories = [
 {
     name: "General knowledge",
     questions: {
-        100: ["Question", "Answer"],
+        100: ["Kuru skolu es nekad neapmeklēju: Mākslas, Mūzikas, Sporta?", "Sporta"],
         200: ["Question", "Answer"],
-        300: ["Question", "Answer"],
+        300: ["Kāds ir mans Duolingo streak? ± 100", "1140"],
         400: ["Question", "Answer"],
         500: ["Question", "Answer"]
     }
