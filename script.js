@@ -111,8 +111,8 @@ function awardPoints(team) {
     finishQuestion();
 }
 
-function addPoints(team) {
-    scores[team] += 100;
+function changePoints(team, amount){
+    scores[team] += amount;
     updateScores();
 }
 
