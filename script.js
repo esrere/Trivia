@@ -32,7 +32,7 @@ const categories = [
 {
     name: "Izcelsme",
     questions: {
-        100: ["Question", "Answer"],
+        100: ["Kur es piedzimu? (precīzi)", "Latvija, Rīga, Rīgas dzemdību nams"],
         200: ["Question", "Answer"],
         300: ["Cik procenti es esmu ebrejs? ±5%", "6.25%"],
         400: ["Question", "Answer"],
@@ -45,7 +45,7 @@ const categories = [
         100: ["", ""],
         200: ["Question", "Answer"],
         300: ["Kāds ir mans Duolingo streak? ±100", "1140"],
-        400: ["Question", "Answer"],
+        400: ["Spotle rounds: https://spotle.io/?artist=RGVmdG9uZXM=&note=VGFrZSBhIHJpc2s=, ja fiksi uzminat (3), +200", "Deftones"],
         500: ["Question", "Answer"]
     }
 }
