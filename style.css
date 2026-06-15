@@ -22,10 +22,9 @@ h1 {
 .board {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 4px;
+    gap: 5px;
     max-width: 1200px;
-    margin: auto;
-    padding: 10px;
+    margin: 20px auto;
 }
 
 .category {
