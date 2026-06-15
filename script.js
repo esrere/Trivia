@@ -22,7 +22,7 @@ const categories = [
 {
     name: "Foto",
     questions: {
-        100: ["Kas tā apr meiteni blakus man? + punkti, ja nosauksiet vārdu", "Emma"],
+        100: ["Kas tā apr meiteni blakus man? + punkti, ja nosauksiet vārdu", "Emma", "Miemma.JPG"],
         200: ["", "Answer"],
         300: ["Question", "Answer"],
         400: ["Question", "Answer"],
