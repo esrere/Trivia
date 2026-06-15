@@ -14,7 +14,7 @@ const categories = [
     questions: {
         100: ["Vai es labak skrietu 2km avi brauktu ar riteni 20km?", "Brauktu ar riteni 20km"],
         200: ["Question", "Answer"],
-        300: ["Question", "Answer"],
+        300: ["Kāda ir mana mīļākā videospēļu franšīze? (+200 punkti ja nosauksiet mīļāko spēli)", "Resident Evil"],
         400: ["Kāds ir man letterboxd top4?", "Handmaiden, City of God, Portrait of a Lady on Fire, Marty Supreme"],
         500: ["Cik zvaigznes man ir DTI? ±1000", "14836"]
     }
@@ -22,7 +22,7 @@ const categories = [
 {
     name: "Foto",
     questions: {
-        100: ["Kas tā apr meiteni blakus man? + punkti, ja nosauksiet vārdu", "Emma", "Miemma.JPG"],
+        100: ["Kas tā apr meiteni blakus man? (+ punkti, ja nosauksiet vārdu)", "Emma", "Miemma.JPG"],
         200: ["", "Answer"],
         300: ["Question", "Answer"],
         400: ["Question", "Answer"],
@@ -45,7 +45,7 @@ const categories = [
         100: ["", ""],
         200: ["Kā sauc manu kaķi?", "Oris (Oreons, Oreo)"],
         300: ["Kāds ir mans Duolingo streak? ±100", "1140"],
-        400: ["Spotle rounds: https://spotle.io/?artist=RGVmdG9uZXM=&note=VGFrZSBhIHJpc2s=, ja fiksi uzminat (3), +200", "Deftones"],
+        400: ["Spotle rounds: https://spotle.io/?artist=RGVmdG9uZXM=&note=VGFrZSBhIHJpc2s= (ja fiksi uzminat (3), +200)", "Deftones"],
         500: ["Question", "Answer"]
     }
 }
