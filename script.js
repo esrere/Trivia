@@ -22,8 +22,8 @@ const categories = [
 {
     name: "Foto",
     questions: {
-        100: ["Question", "Answer"],
-        200: ["Question", "Answer"],
+        100: ["Kas tā apr meiteni blakus man? + punkti, ja nosauksiet vārdu", "Emma"],
+        200: ["", "Answer"],
         300: ["Question", "Answer"],
         400: ["Question", "Answer"],
         500: ["Question", "Answer"]
@@ -42,8 +42,8 @@ const categories = [
 {
     name: "General Knowledge",
     questions: {
-        100: ["Kā sauc manu kaķi?", "Oris (Oreons, Oreo)"],
-        200: ["Question", "Answer"],
+        100: ["", ""],
+        200: ["Kā sauc manu kaķi?", "Oris (Oreons, Oreo)"],
         300: ["Kāds ir mans Duolingo streak? ±100", "1140"],
         400: ["Spotle rounds: https://spotle.io/?artist=RGVmdG9uZXM=&note=VGFrZSBhIHJpc2s=, ja fiksi uzminat (3), +200", "Deftones"],
         500: ["Question", "Answer"]
