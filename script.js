@@ -34,7 +34,7 @@ const categories = [
     questions: {
         100: ["Question", "Answer"],
         200: ["Question", "Answer"],
-        300: ["Question", "Answer"],
+        300: ["Cik procenti es esmu ebrejs? ± 5%", "6,25%"],
         400: ["Question", "Answer"],
         500: ["Question", "Answer"]
     }
