@@ -16,7 +16,7 @@ const categories = [
         200: ["Filma kurai es ieliku 5 zvaigznes letterboxd: HE'S DYING TO BECOME A CHEF.", "Ratatouille"],
         300: ["Kāda ir mana mīļākā videospēļu franšīze? (+200 punkti ja nosauksiet mīļāko spēli)", "Resident Evil, RE2"],
         400: ["Kāds ir mans Letterboxd top 4?", "Handmaiden, City of God, Portrait of a Lady on Fire, Marty Supreme"],
-        500: ["Cik zvaigznes man ir DTI? ±1000", "14836"]
+        500: ["Spotle: https://spotle.io/?artist=RGVmdG9uZXM=&note=VGFrZSBhIHJpc2s= (+200, ja atminēsi uzreiz)", "Deftones"]
     }
 },
 {
@@ -43,10 +43,10 @@ const categories = [
     name: "General Knowledge",
     questions: {
         100: ["Kā sauc manu kaķi?", "Oris (Oreons, Oreo)"],
-        200: ["Kāda ir mana mīļākā kārumiņa garša?", "Šokolādes"],
-        300: ["Kāds ir mans Duolingo streak? ±100", "1140"],
-        400: ["Spotle: https://spotle.io/?artist=RGVmdG9uZXM=&note=VGFrZSBhIHJpc2s= (pirmajos 3 +200)", "Deftones"],
-        500: ["Kuru ķermeņa daļu kaulus es esmu salauzusi?", "Nevienu"]
+        200: ["Kāds ir mans Duolingo streak? ±100", "1140"],
+        300: ["Kuras ķermeņa daļas kaulu es esmu salauzusi?", "Nevienu"],
+        400: ["Kāda ir mana mīļākā kārumiņa garša?", "Šokolādes"],
+        500: ["Kā es pazīstu katru cilvēku šeit?", "..."]
     }
 }
 ];
