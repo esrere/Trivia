@@ -25,7 +25,7 @@ const categories = [
         100: ["Kas tā par meiteni blakus man? (+ punkti, ja nosauksiet vārdu)", "Emma", "Miemma.JPG"],
         200: ["", ""],
         300: ["Question", "Answer"],
-        400: ["Question", "Answer"],
+        400: ["Kādas sekas bija šim incidentam?", "Mākslasskolā brīvie skapīši tika aizslēgti", "Kruzite.mp4"],
         500: ["Question", "Answer"]
     }
 },
