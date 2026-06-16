@@ -4,7 +4,7 @@ const categories = [
     questions: {
         100: ["Kuru skolu es nekad neapmeklēju: Mākslas, Mūzikas, Sporta?", "Sporta"],
         200: ["", ""],
-        300: ["Kāds ir mans vasaras darbs, kur un kā sauc iestādi?", "Viesmīle, Baldonē, Mēzvidu krodziņš"],
+        300: ["Kāds ir mans vasaras darbs, kur un kā sauc iestādi?", "Viesmīle, Baldonē, Mežvidu krodziņš"],
         400: ["Cik veidu dejas un kādas es dejoju bērnībā?", "3"],
         500: ["Question", "Answer"]
     }
