@@ -22,7 +22,7 @@ const categories = [
 {
     name: "Foto",
     questions: {
-        100: ["Kā sauc meiteni man blakus un kas viņa ir?", "Emma, vāciete", "Miemma.JPG"],
+        100: ["Kas ir meitene blakus man un kā viņu sauc?", "Emma, vāciete", "Miemma.JPG"],
         200: ["Kas šis ir par koncertu? (+ punkti, ja nosauksiet dziesmu)", "Tante Gaida, Klusumā apsēsties", null, "Tantegaida.mp4"],
         300: ["Cik gadi man ir šajā bildē?", "10", "Bul.JPG"],
         400: ["Kādas sekas bija šim incidentam?", "Mākslasskolā brīvie skapīši tika aizslēgti", null, "Kruzite.mp4"],
