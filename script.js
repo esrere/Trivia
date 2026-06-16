@@ -116,6 +116,21 @@ values.forEach(value => {
                 img.style.display = "none";
             }
 
+            /* VIDEO SUPPORT */
+            const video = document.getElementById("questionVideo");
+            const videoSource = document.getElementById("videoSource");
+        
+            if (q[3]) {
+                videoSource.src = q[3];
+                video.load();
+                video.style.display = "block";
+        
+                video.play().catch(() => {});
+            } else {
+                video.pause();
+                video.style.display = "none";
+            }
+        
             document.getElementById("modal").style.display = "flex";
         };
 
