@@ -13,7 +13,7 @@ const categories = [
     name: "Izklaides",
     questions: {
         100: ["Vai es labāk skrietu 2km vai brauktu ar riteni 20km?", "Brauktu ar riteni 20km"],
-        200: ["Filma kurai es ieliku 5 zvaigznes letterboxd: HE'S DYING TO BECOME A CHEF.", "Ratatouille"],
+        200: ["Filma kurai es ieliku 5 zvaigznes letterboxd: HE'S DYING TO BECOME A CHEF", "Ratatouille"],
         300: ["Kāda ir mana mīļākā videospēļu franšīze? (+200 punkti ja nosauksiet mīļāko spēli)", "Resident Evil, RE2"],
         400: ["Kāds ir mans Letterboxd top 4?", "Handmaiden, City of God, Portrait of a Lady on Fire, Marty Supreme"],
         500: ["Spotle: https://spotle.io/?artist=RGVmdG9uZXM=&note=VGFrZSBhIHJpc2s= (+200, ja atminēsi uzreiz)", "Deftones"]
