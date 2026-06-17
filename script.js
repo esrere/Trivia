@@ -3,7 +3,7 @@ const categories = [
     name: "Nodarbes",
     questions: {
         100: ["Kuru skolu es nekad neapmeklēju: Mākslas, Mūzikas, Sporta?", "Sporta"],
-        200: ["", ""],
+        200: ["Kura līmeņa kursu es pabeidzu Goethe šogad?", "B1.2"],
         300: ["Kāds ir mans vasaras darbs, kur un kā sauc iestādi?", "Viesmīle, Baldonē, Mežvidu krodziņš"],
         400: ["Cik veidu un kādas dejas es dejoju bērnībā?", "3"],
         500: ["", ""]
