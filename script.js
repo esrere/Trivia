@@ -32,7 +32,7 @@ const categories = [
 {
     name: "Izcelsme",
     questions: {
-        100: ["Kur es piedzimu? (precīzi)", "Latvija, Rīga, Rīgas dzemdību nams"],
+        100: ["Kur es piedzimu (precīzi)?", "Latvija, Rīga, Rīgas dzemdību nams"],
         200: ["Kura bija mana bērnudārza telpa (grupiņas nummurs)?", "14"],
         300: ["Cik procenti es esmu ebrejs? ±5%", "6.25%"],
         400: ["Kā mani vecāki izvēlējās manu vārdu?", "Uzrakstīja sarakstus un salīdzināja"],
