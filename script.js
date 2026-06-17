@@ -5,27 +5,27 @@ const categories = [
         100: ["Kuru skolu es nekad neapmeklēju: Mākslas, Mūzikas, Sporta?", "Sporta"],
         200: ["Kura līmeņa kursu es pabeidzu Goethe šogad?", "B1.2"],
         300: ["Kāds ir mans vasaras darbs, kur un kā sauc iestādi?", "Viesmīle, Baldonē, Mežvidu krodziņš"],
-        400: ["Cik veidu un kādas dejas es dejoju bērnībā?", "3"],
-        500: ["", ""]
+        400: ["Cik veidu un kādas dejas es dejoju bērnībā?", "3, Tautasdejas, Balets, Mūsdienu dejas"],
+        500: ["Kā sākas katra mana zīmēšanas nodarbība?", "Uzvelku čībiņas un tad rokas trenniņš"]
     }
 },
 {
     name: "Funzys",
     questions: {
         100: ["Vai es labāk skrietu 2km vai brauktu ar riteni 20km?", "Brauktu ar riteni 20km"],
-        200: ["Filma kurai es ieliku 5 zvaigznes letterboxd: HE'S DYING TO BECOME A CHEF", "Ratatouille"],
-        300: ["Kāda ir mana mīļākā videospēļu franšīze? (+200 punkti ja nosauksiet mīļāko spēli)", "Resident Evil, RE2"],
-        400: ["Kāds ir mans Letterboxd top 4?", "Handmaiden, City of God, Portrait of a Lady on Fire, Marty Supreme"],
+        200: ["Kurš GossipGirl tēls es esmu? (Blastīts uz uquiz un arealme quiziem)", "Chuck, blair"],
+        300: ["Filma kurai es ieliku 5 zvaigznes letterboxd: HE'S DYING TO BECOME A CHEF", "Ratatouille"],
+        400: ["Kāds ir mans Letterboxd top 4?", "The Handmaiden, City of God, Portrait of a Lady on Fire, Marty Supreme"],
         500: ["Spotle: https://spotle.io/?artist=RGVmdG9uZXM=&note=VGFrZSBhIHJpc2s= (+200, ja atminēsi uzreiz)", "Deftones"]
     }
 },
 {
     name: "Foto",
     questions: {
-        100: ["Kas ir meitene blakus man un kā viņu sauc?", "Emma, vāciete", "Miemma.JPG"],
-        200: ["Kas šis ir par koncertu? (+ punkti, ja nosauksiet dziesmu)", "Tante Gaida, Klusumā apsēsties", null, "Tantegaida.mp4"],
+        100: ["Kas ir meitene blakus man un kā viņu sauc?", "Vāciete, Emma", "Miemma.JPG"],
+        200: ["Kas šis ir bija par koncertu? (+ punkti, ja nosauksiet dziesmu)", "Tante Gaida, Klusumā apsēsties", null, "Tantegaida.mp4"],
         300: ["Cik gadi man ir šajā bildē?", "10", "Bul.JPG"],
-        400: ["Kādas sekas bija šim incidentam?", "Mākslasskolā brīvie skapīši tika aizslēgti", null, "Kruzite.mp4"],
+        400: ["Kādas sekas bija šim incidentam?", "Mākslasskolā brīvie skapīši turpmāk tika aizslēgti", null, "Kruzite.mp4"],
         500: ["", ""]
     }
 },
@@ -33,10 +33,10 @@ const categories = [
     name: "Izcelsme",
     questions: {
         100: ["Kur es piedzimu (precīzi)?", "Latvija, Rīga, Rīgas dzemdību nams"],
-        200: ["Kura bija mana bērnudārza telpa (grupiņas nummurs)?", "14"],
+        200: ["Cik man bija gadu, kad piedzima mans brālis?", "1"],
         300: ["Cik procenti es esmu ebrejs? ±5%", "6.25%"],
-        400: ["Kā mani vecāki izvēlējās manu vārdu?", "Uzrakstīja sarakstus un salīdzināja"],
-        500: ["Uz kurieni mani vecāki devās ceļojumā, kamēr mana mamma bija stāvoklī?", "Meksika"]
+        400: ["Kā mani vecāki izvēlējās manu vārdu?", "Uzrakstīja vairākus vārdus uz lapiņas un salīdzināja"],
+        500: ["Kur mani vecāki devās ceļojumā, kamēr mana mamma bija stāvoklī? (Es principā tur arī biju)", "Meksika"]
     }
 },
 {
@@ -44,7 +44,7 @@ const categories = [
     questions: {
         100: ["Kā sauc manu kaķi?", "Oris (Oreons, Oreo)", "oris.JPG"],
         200: ["Kāds ir mans Duolingo streak? ±100", "1140"],
-        300: ["Kuras ķermeņa daļas kaulu es esmu salauzusi?", "Nevienu"],
+        300: ["Kuras ķermeņa daļas kaulu es esmu salauzusi?", "Nevienas"],
         400: ["Kāda ir mana mīļākā kārumiņa garša?", "Šokolādes"],
         500: ["Kā es pazīstu katru cilvēku šeit?", "..."]
     }
