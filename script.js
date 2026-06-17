@@ -42,7 +42,7 @@ const categories = [
 {
     name: "General Knowledge",
     questions: {
-        100: ["Kā sauc manu kaķi?", "Oris (Oreons, Oreo)"],
+        100: ["Kā sauc manu kaķi?", "Oris (Oreons, Oreo)", "oris.JPG"],
         200: ["Kāds ir mans Duolingo streak? ±100", "1140"],
         300: ["Kuras ķermeņa daļas kaulu es esmu salauzusi?", "Nevienu"],
         400: ["Kāda ir mana mīļākā kārumiņa garša?", "Šokolādes"],
