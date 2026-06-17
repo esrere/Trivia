@@ -36,7 +36,7 @@ const categories = [
         200: ["Cik man bija gadu, kad piedzima mans brālis?", "1"],
         300: ["Cik procenti es esmu ebrejs? ±5%", "6.25%"],
         400: ["Kā mani vecāki izvēlējās manu vārdu?", "Uzrakstīja vairākus vārdus uz lapiņas un salīdzināja"],
-        500: ["Kur mani vecāki devās ceļojumā, kamēr mana mamma bija stāvoklī? (Es principā tur arī biju)", "Meksika"]
+        500: ["Kur mani vecāki devās ceļojumā, kamēr mana mamma bija stāvoklī? (Es principā tur arī biju)", "Uz Meksiku"]
     }
 },
 {
