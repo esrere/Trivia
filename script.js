@@ -5,12 +5,12 @@ const categories = [
         100: ["Kuru skolu es nekad neapmeklēju: Mākslas, Mūzikas, Sporta?", "Sporta"],
         200: ["", ""],
         300: ["Kāds ir mans vasaras darbs, kur un kā sauc iestādi?", "Viesmīle, Baldonē, Mežvidu krodziņš"],
-        400: ["Cik veidu dejas un kādas es dejoju bērnībā?", "3"],
-        500: ["Question", "Answer"]
+        400: ["Cik veidu un kādas dejas es dejoju bērnībā?", "3"],
+        500: ["", ""]
     }
 },
 {
-    name: "Izklaides",
+    name: "Funzys",
     questions: {
         100: ["Vai es labāk skrietu 2km vai brauktu ar riteni 20km?", "Brauktu ar riteni 20km"],
         200: ["Filma kurai es ieliku 5 zvaigznes letterboxd: HE'S DYING TO BECOME A CHEF", "Ratatouille"],
@@ -26,14 +26,14 @@ const categories = [
         200: ["Kas šis ir par koncertu? (+ punkti, ja nosauksiet dziesmu)", "Tante Gaida, Klusumā apsēsties", null, "Tantegaida.mp4"],
         300: ["Cik gadi man ir šajā bildē?", "10", "Bul.JPG"],
         400: ["Kādas sekas bija šim incidentam?", "Mākslasskolā brīvie skapīši tika aizslēgti", null, "Kruzite.mp4"],
-        500: ["Question", "Answer"]
+        500: ["", ""]
     }
 },
 {
     name: "Izcelsme",
     questions: {
         100: ["Kur es piedzimu? (precīzi)", "Latvija, Rīga, Rīgas dzemdību nams"],
-        200: ["Question", "Answer"],
+        200: ["Kura bija mana bērnudārza telpa (grupiņas nummurs)?", "14"],
         300: ["Cik procenti es esmu ebrejs? ±5%", "6.25%"],
         400: ["Kā mani vecāki izvēlējās manu vārdu?", "Uzrakstīja sarakstus un salīdzināja"],
         500: ["Uz kurieni mani vecāki devās ceļojumā, kamēr mana mamma bija stāvoklī?", "Meksika"]
