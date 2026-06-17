@@ -26,7 +26,7 @@ const categories = [
         200: ["Kas šis ir bija par koncertu? (+ punkti, ja nosauksiet dziesmu)", "Tante Gaida, Klusumā apsēsties", null, "Tantegaida.mp4"],
         300: ["Cik gadi man ir šajā bildē?", "10", "Bul.JPG"],
         400: ["Kādas sekas bija šim incidentam?", "Mākslasskolā brīvie skapīši turpmāk tika aizslēgti", null, "Kruzite.mp4"],
-        500: ["", ""]
+        500: ["Atrodiet mani šajā bildē!", "", "bernudarzs.JPG"]
     }
 },
 {
